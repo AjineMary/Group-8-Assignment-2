@@ -3,34 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Assignment</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container2">
-        <h3>Summary</h3>
-        <div class="first">
-            <img src="./images/icon-reaction.svg" alt="Reaction Image">
-            <div style="width: 200px; color: hsl(0, 100%, 67%);"><p><strong>Reaction</strong></p></div>
-            <div><p><strong>80</strong>/100</p></div>
-        </div>
-        <div class="second">
-            <img src="./images/icon-memory.svg" alt="Memory Image">
-            <div style="width: 200px; color: hsl(39, 100%, 56%);"><p><strong>Memory</strong></p></div>
-            <div><p><strong>92</strong>/100</p></div>
-        </div>
-        <div class="third">
-            <img src="./images/icon-verbal.svg" alt="Verbal Image">
-            <div style="width: 200px; color: hsl(166, 100%, 37%);"><p><strong>Verbal</strong></p></div>
-            <div><p><strong>61</strong>/100</p></div>
-        </div>
-        <div class="fourth">
-            <img src="./images/icon-visual.svg" alt="Visual Image">
-            <div style="width: 200px; color: hsl(234, 85%, 45%);"><p><strong>Visual</strong></p></div>
-            <div><p><strong>72</strong>/100</p></div>
-        </div>
-        <div class="fifth">
-            <p>Continue</p>
-        </div>
+    <div class="parent">
+  <div class="container first-child">
+    <p class="result grey">Your Result</p>
+    <p class="p-f-large"><span class="f-large ">76</span><br>
+    </p>
+    <p class="grey fw-2">of 100</p>
+    <p class=" remark-title fs-2 ">Great</p>
+    <p class="remark-text grey">You scored higher than 65% of the<br> people who have taken these tests.</p>
+  </div>
+  <div class="container last-child">
+    <p class="dark-blue m-1 fw-2"> Summary</p>
+    <div class="d-flex bg-red">
+      <img class="icon" src="icon-reaction.svg">
+      <p class="red">Reaction</p> 
+      <p class="text-end fw-2"><span class="dark-blue fw-2"> 80</span>
+      <span class="dark-grey"> / 100</span></p>
+    </div>
+    
+    <div class="d-flex bg-yellow">
+      <img class="icon" src="icon-memory.svg"><p class="yellow">Memory</p> <p class="text-end fw-2"><span class="dark-blue fw-2">92</span>
+      <span class="dark-grey"> / 100</span></p>
+    </div>
+
+    <div class="d-flex bg-green">
+      <img class="icon" src="icon-verbal.svg"><p class="green">Verbal </p> 
+      <p class="text-end fw-2"><span class="dark-blue fw-2"> 61</span>
+      <span class="dark-grey"> / 100</span>
+      </p>
+    </div>
+    
+    <div class="d-flex bg-blue">
+      <img class="icon" src="icon-visual.svg">
+        <p><span class="blue">Visual</span></p><p class="text-end fw-2">
+          <span class="dark-blue fw-2">72</span> <span class="dark-grey"> / 100</span>
+        </p>
+    </div>
+   
+    <p class="continue-btn m-1 fw-2"> Continue</p>
+  </div>
+</div>
+<footer>Assignment done by: <br>Ajine Mary Erima <br>Chukwudi Ebere <br>Dan Chima Phillip </footer>
 </body>
 </html>
